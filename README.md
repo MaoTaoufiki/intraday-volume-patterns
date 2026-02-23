@@ -2,7 +2,7 @@
 
 A data and analytics engineering project studying the U-shaped intraday volume curve in US equity markets, built on a production-grade stack: Python ingestion, ClickHouse columnar storage, dbt transformation layers, and an R Shiny dashboard.
 
-![Dashboard](assets/dashboard.png)
+![Dashboard](assets/dash.png)
 
 ## The idea
 
