@@ -1,0 +1,46 @@
+version: 2
+
+models:
+  - name: mart_normalized_volume
+    description: >
+      Bar-level table with volume normalized by each ticker's average daily volume.
+      Foundation for all volume curve aggregations — allows comparing patterns
+      across tickers with very different absolute trading volumes.
+    columns:
+      - name: normalized_volume
+        description: "bar volume / avg_daily_volume for this ticker. 1.0 = average bar volume"
+      - name: avg_daily_volume
+        description: "Average total daily volume for this ticker across all days in the dataset"
+
+  - name: mart_volume_curve
+    description: >
+      The U-curve: average normalized volume at each 5-minute interval across
+      all tickers and trading days. Primary output of the project.
+    columns:
+      - name: minutes_since_open
+        description: "X-axis of the U-curve (0 = 09:30 EST, 390 = 16:00 EST)"
+      - name: avg_normalized_volume
+        description: "Y-axis — average normalized volume at this time slot"
+      - name: sample_size
+        description: "Number of (ticker, date, bar) observations behind this point"
+
+  - name: mart_volume_curve_by_sector
+    description: "U-curve disaggregated by GICS sector — compare open/close spike intensity across sectors"
+
+  - name: mart_volume_curve_by_market_cap
+    description: "U-curve disaggregated by market cap band (large/mid/small)"
+
+  - name: mart_daily_volatility
+    description: >
+      Rolling 20-day realized volatility (annualized) per ticker per day,
+      with a high/low vol regime classification based on each ticker's own median vol.
+    columns:
+      - name: realized_vol_20d
+        description: "Annualized 20-day rolling realized volatility"
+      - name: vol_regime
+        description: "high or low — relative to each ticker's own median realized vol"
+
+  - name: mart_volume_curve_by_vol_regime
+    description: >
+      The most analytically interesting mart: U-curve split by volatility regime.
+      Does volume concentrate more aggressively at open/close on high vol days?

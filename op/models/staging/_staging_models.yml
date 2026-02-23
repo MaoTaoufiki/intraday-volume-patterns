@@ -1,0 +1,48 @@
+version: 2
+
+models:
+  - name: stg_intraday_bars
+    description: "Cleaned 5m intraday bars — trading hours only (14:30–21:00 UTC), zero-volume bars removed"
+    columns:
+      - name: ticker
+      - name: sector
+      - name: market_cap_band
+      - name: bar_time
+      - name: trade_date
+      - name: bar_hour
+      - name: bar_minute
+      - name: minutes_since_open
+        description: "Minutes elapsed since 09:30 EST (14:30 UTC) — key axis for the U-curve"
+      - name: day_of_week
+        description: "1=Monday, 7=Sunday"
+      - name: open
+      - name: high
+      - name: low
+      - name: close
+      - name: volume
+      - name: interval
+
+  - name: stg_daily_bars
+    description: "Cleaned daily OHLCV with daily returns pre-computed for volatility calculations"
+    columns:
+      - name: ticker
+      - name: trade_date
+      - name: open
+      - name: high
+      - name: low
+      - name: close
+      - name: volume
+      - name: daily_return
+        description: "Close-to-close return: (close / prev_close) - 1"
+
+  - name: stg_ticker_metadata
+    description: "Static ticker metadata — sector, industry, market cap band"
+    columns:
+      - name: ticker
+      - name: company_name
+      - name: sector
+      - name: industry
+      - name: market_cap
+      - name: market_cap_band
+      - name: country
+      - name: currency

@@ -1,0 +1,52 @@
+version: 2
+
+sources:
+  - name: raw
+    database: raw
+    schema: raw
+    description: "Raw landing zone — loaded by Python ingestion script, never modified by dbt"
+    tables:
+      - name: intraday_bars
+        description: "5m OHLCV bars for 50 tickers across 11 sectors, last 60 days"
+        columns:
+          - name: ticker
+            description: "Stock ticker symbol"
+          - name: sector
+            description: "GICS sector"
+          - name: market_cap_band
+            description: "large / mid / small"
+          - name: bar_time
+            description: "Bar open timestamp in UTC"
+          - name: open
+          - name: high
+          - name: low
+          - name: close
+          - name: volume
+          - name: interval
+            description: "Bar interval — always 5m in this project"
+          - name: ingested_at
+
+      - name: ticker_metadata
+        description: "Static metadata per ticker — company name, sector, market cap"
+        columns:
+          - name: ticker
+          - name: company_name
+          - name: sector
+          - name: industry
+          - name: market_cap
+          - name: market_cap_band
+          - name: country
+          - name: currency
+          - name: fetched_at
+
+      - name: daily_bars
+        description: "1d OHLCV for 50 tickers, last 2 years — used for volatility context"
+        columns:
+          - name: ticker
+          - name: trade_date
+          - name: open
+          - name: high
+          - name: low
+          - name: close
+          - name: volume
+          - name: ingested_at

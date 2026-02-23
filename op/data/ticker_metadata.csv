@@ -1,0 +1,56 @@
+ticker,company_name,sector,industry,market_cap,market_cap_band,country,currency,fetched_at
+AAPL,Apple Inc.,Technology,Consumer Electronics,3888777003008,large,United States,USD,2026-02-21 23:19:49
+MSFT,Microsoft Corporation,Technology,Software - Infrastructure,2952363507712,large,United States,USD,2026-02-21 23:19:51
+NVDA,NVIDIA Corporation,Technology,Semiconductors,4621547864064,large,United States,USD,2026-02-21 23:19:54
+AMD,"Advanced Micro Devices, Inc.",Technology,Semiconductors,326326714368,large,United States,USD,2026-02-21 23:19:56
+INTC,Intel Corporation,Technology,Semiconductors,220337324032,large,United States,USD,2026-02-21 23:19:58
+GOOGL,Alphabet Inc.,Communication,Internet Content & Information,3810313371648,large,United States,USD,2026-02-21 23:20:01
+META,"Meta Platforms, Inc.",Communication,Internet Content & Information,1658528202752,large,United States,USD,2026-02-21 23:20:03
+NFLX,"Netflix, Inc.",Communication,Entertainment,333709443072,large,United States,USD,2026-02-21 23:20:06
+SNAP,Snap Inc.,Communication,Internet Content & Information,8681212928,mid,United States,USD,2026-02-21 23:20:08
+PINS,"Pinterest, Inc.",Communication,Internet Content & Information,12004663296,large,United States,USD,2026-02-21 23:20:11
+AMZN,"Amazon.com, Inc.",Consumer Discretionary,Internet Retail,2255514238976,large,United States,USD,2026-02-21 23:20:13
+TSLA,"Tesla, Inc.",Consumer Discretionary,Auto Manufacturers,1545326559232,large,United States,USD,2026-02-21 23:20:15
+NKE,"NIKE, Inc.",Consumer Discretionary,Footwear & Accessories,96817070080,large,United States,USD,2026-02-21 23:20:18
+MCD,McDonald's Corporation,Consumer Discretionary,Restaurants,234939990016,large,United States,USD,2026-02-21 23:20:21
+SBUX,Starbucks Corporation,Consumer Discretionary,Restaurants,111070355456,large,United States,USD,2026-02-21 23:20:23
+PG,The Procter & Gamble Company,Consumer Staples,Household & Personal Products,375699996672,large,United States,USD,2026-02-21 23:20:26
+KO,The Coca-Cola Company,Consumer Staples,Beverages - Non-Alcoholic,343440457728,large,United States,USD,2026-02-21 23:20:28
+PEP,"PepsiCo, Inc.",Consumer Staples,Beverages - Non-Alcoholic,225529085952,large,United States,USD,2026-02-21 23:20:31
+WMT,Walmart Inc.,Consumer Staples,Discount Stores,980580958208,large,United States,USD,2026-02-21 23:20:34
+COST,Costco Wholesale Corporation,Consumer Staples,Discount Stores,437418196992,large,United States,USD,2026-02-21 23:20:36
+JNJ,Johnson & Johnson,Health Care,Drug Manufacturers - General,584376451072,large,United States,USD,2026-02-21 23:20:39
+UNH,UnitedHealth Group Incorporated,Health Care,Healthcare Plans,262693191680,large,United States,USD,2026-02-21 23:20:42
+PFE,Pfizer Inc.,Health Care,Drug Manufacturers - General,151524114432,large,United States,USD,2026-02-21 23:20:44
+ABBV,AbbVie Inc.,Health Care,Drug Manufacturers - General,397325729792,large,United States,USD,2026-02-21 23:20:47
+MRNA,"Moderna, Inc.",Health Care,Biotechnology,19485886464,large,United States,USD,2026-02-21 23:20:50
+JPM,JPMorgan Chase & Co.,Financials,Banks - Diversified,846051934208,large,United States,USD,2026-02-21 23:20:53
+BAC,Bank of America Corporation,Financials,Banks - Diversified,387470426112,large,United States,USD,2026-02-21 23:20:55
+GS,"The Goldman Sachs Group, Inc.",Financials,Capital Markets,279181492224,large,United States,USD,2026-02-21 23:20:58
+V,Visa Inc.,Financials,Credit Services,618804346880,large,United States,USD,2026-02-21 23:21:00
+AXP,American Express Company,Financials,Credit Services,238466662400,large,United States,USD,2026-02-21 23:21:03
+CAT,Caterpillar Inc.,Industrials,Farm & Heavy Construction Machinery,355542794240,large,United States,USD,2026-02-21 23:21:05
+GE,GE Aerospace,Industrials,Aerospace & Defense,362033217536,large,United States,USD,2026-02-21 23:21:08
+BA,The Boeing Company,Industrials,Aerospace & Defense,182224076800,large,United States,USD,2026-02-21 23:21:11
+UPS,"United Parcel Service, Inc.",Industrials,Integrated Freight & Logistics,99032055808,large,United States,USD,2026-02-21 23:21:13
+HON,Honeywell International Inc.,Industrials,Conglomerates,164403986432,large,United States,USD,2026-02-21 23:21:16
+XOM,Exxon Mobil Corporation,Energy,Oil & Gas Integrated,621104136192,large,United States,USD,2026-02-21 23:21:18
+CVX,Chevron Corporation,Energy,Oil & Gas Integrated,367741108224,large,United States,USD,2026-02-21 23:21:21
+COP,ConocoPhillips,Energy,Oil & Gas E&P,136583938048,large,United States,USD,2026-02-21 23:21:24
+SLB,SLB N.V.,Energy,Oil & Gas Equipment & Services,76037603328,large,United States,USD,2026-02-21 23:21:26
+OXY,Occidental Petroleum Corporation,Energy,Oil & Gas E&P,51073310720,large,United States,USD,2026-02-21 23:21:28
+LIN,Linde plc,Materials,Specialty Chemicals,232818278400,large,United Kingdom,USD,2026-02-21 23:21:31
+APD,"Air Products and Chemicals, Inc.",Materials,Specialty Chemicals,62606413824,large,United States,USD,2026-02-21 23:21:33
+NEM,Newmont Corporation,Materials,Gold,134153658368,large,United States,USD,2026-02-21 23:21:36
+FCX,Freeport-McMoRan Inc.,Materials,Copper,92387770368,large,United States,USD,2026-02-21 23:21:38
+ALB,Albemarle Corporation,Materials,Specialty Chemicals,19847827456,large,United States,USD,2026-02-21 23:21:41
+NEE,"NextEra Energy, Inc.",Utilities,Utilities - Regulated Electric,192059047936,large,United States,USD,2026-02-21 23:21:43
+DUK,Duke Energy Corporation,Utilities,Utilities - Regulated Electric,98591891456,large,United States,USD,2026-02-21 23:21:46
+SO,The Southern Company,Utilities,Utilities - Regulated Electric,103834198016,large,United States,USD,2026-02-21 23:21:48
+AEP,"American Electric Power Company, Inc.",Utilities,Utilities - Regulated Electric,69971247104,large,United States,USD,2026-02-21 23:21:51
+EXC,Exelon Corporation,Utilities,Utilities - Regulated Electric,48884039680,large,United States,USD,2026-02-21 23:21:53
+AMT,American Tower Corporation,Real Estate,REIT - Specialty,87708139520,large,United States,USD,2026-02-21 23:21:56
+PLD,"Prologis, Inc.",Real Estate,REIT - Industrial,131443965952,large,United States,USD,2026-02-21 23:21:59
+EQIX,"Equinix, Inc.",Real Estate,REIT - Specialty,91191377920,large,United States,USD,2026-02-21 23:22:02
+SPG,"Simon Property Group, Inc.",Real Estate,REIT - Retail,76077842432,large,United States,USD,2026-02-21 23:22:04
+O,Realty Income Corporation,Real Estate,REIT - Retail,60723515392,large,United States,USD,2026-02-21 23:22:06

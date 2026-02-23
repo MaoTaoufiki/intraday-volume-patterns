@@ -1,0 +1,31 @@
+[0m20:40:00.154198 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ea7fd1b17f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ea7fea33590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ea7fd33dd30>]}
+
+
+============================== 20:40:00.205462 | 11bef86f-8b5c-4113-8105-13857c3a346a ==============================
+[0m20:40:00.205462 [info ] [MainThread]: Running with dbt=1.11.6
+[0m20:40:00.206042 [debug] [MainThread]: running dbt with arguments {'empty': 'None', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'indirect_selection': 'eager', 'debug': 'False', 'log_cache_events': 'False', 'printer_width': '80', 'log_path': 'logs', 'use_colors': 'True', 'log_format': 'default', 'send_anonymous_usage_stats': 'True', 'introspect': 'True', 'profiles_dir': '/home/s/.dbt', 'version_check': 'True', 'invocation_command': 'dbt init op', 'cache_selected_only': 'False', 'fail_fast': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_experimental_parser': 'False', 'target_path': 'None', 'quiet': 'False', 'write_json': 'True'}
+[0m20:40:00.251931 [info ] [MainThread]: Creating dbt configuration folder at /home/s/.dbt
+[0m20:40:00.253799 [debug] [MainThread]: Starter project path: /home/s/click/.venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m20:40:00.257066 [info ] [MainThread]: 
+Your new dbt project "op" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:40:00.257538 [info ] [MainThread]: Setting up your profile.
+[0m20:40:23.819762 [info ] [MainThread]: No sample profile found for clickhouse.
+[0m20:40:23.835044 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 23.748726, "process_in_blocks": "1360", "process_kernel_time": 0.160279, "process_mem_max_rss": "120244", "process_out_blocks": "1416", "process_user_time": 1.518651}
+[0m20:40:23.835556 [debug] [MainThread]: Command `dbt init` succeeded at 20:40:23.835465 after 23.75 seconds
+[0m20:40:23.835864 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ea7fd94ea80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ea7fc5ccce0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ea7fbe79c10>]}
+[0m20:40:23.836266 [debug] [MainThread]: Flushing usage events
+[0m20:40:24.415948 [debug] [MainThread]: An error was encountered while trying to flush usage events
